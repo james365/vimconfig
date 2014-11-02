@@ -11,8 +11,12 @@ Plugin 'gmarik/Vundle.vim'
 "my plugin here:
 " tagbar 
 Plugin 'majutsushi/tagbar'
+
 " 高亮选中的关键字
 Plugin 'dimasg/vim-mark'
+
+" airline 状态栏 
+Plugin 'bling/vim-airline'
 
 
 " 主题 

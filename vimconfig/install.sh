@@ -40,14 +40,17 @@ END
 echo "Download plugins ..."
 vim +PluginInstall +qall
 
-# 解决 vim mark 快捷键冲突 
-if [ -f ~/.vim_config/vundle/vim-mark/plugin/mark.vim ]
+# 执行插件配置脚本 
+if [ -d ~/.vim_config/plugins_install ]
 then
-    sed -i "s/<Leader>m <Plug>MarkSet/mm <Plug>MarkSet/g" ~/.vim_config/vundle/vim-mark/plugin/mark.vim
-    sed -i "s/<Leader>r <Plug>MarkRegex/mr <Plug>MarkRegex/g" ~/.vim_config/vundle/vim-mark/plugin/mark.vim
-    sed -i "s/<Leader>n <Plug>MarkClear/mn <Plug>MarkClear/g" ~/.vim_config/vundle/vim-mark/plugin/mark.vim
-fi
+    pushd ~/.vim_config/plugins_install 
+    for name in *.sh
+    do
+        bash ./$name
+    done
+    popd
 
+fi
 
 echo "Installed the Vim configuration successfully! Enjoy :-)"
 
