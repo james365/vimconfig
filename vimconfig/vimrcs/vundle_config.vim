@@ -9,8 +9,17 @@ call vundle#begin('~/.vim_config/vundle')
 Plugin 'gmarik/Vundle.vim'
 
 "my plugin here:
-" 搜索关键字
-Plugin 'mileszs/ack.vim'
+" tagbar 
+Plugin 'majutsushi/tagbar'
+" 高亮选中的关键字
+Plugin 'dimasg/vim-mark'
+
+
+" 主题 
+Plugin 'jnurmine/Zenburn'
+Plugin 'tomasr/molokai'
+Plugin 'sickill/vim-monokai'
+Plugin 'altercation/vim-colors-solarized'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
