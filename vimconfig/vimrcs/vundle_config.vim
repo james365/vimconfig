@@ -27,6 +27,9 @@ Plugin 'kien/ctrlp.vim'
 " markdown 文件格式高亮 
 Plugin 'tpope/vim-markdown'
 
+" 语法检测 
+Plugin 'scrooloose/syntastic'
+
 " 主题 
 Plugin 'jnurmine/Zenburn'
 Plugin 'tomasr/molokai'

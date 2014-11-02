@@ -52,3 +52,19 @@ let g:ctrlp_custom_ignore = {
 """"""""""""""""""""""""""""""""""""""""""""""""""
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" syntastic 语法检查 
+""""""""""""""""""""""""""""""""""""""""""""""""""
+"let g:syntastic_python_checkers=['pyflakes']
+let g:syntastic_check_on_open=1                                  
+let g:syntastic_cpp_include_dirs = ['/usr/include/']
+let g:syntastic_cpp_remove_include_errors = 1
+let g:syntastic_cpp_check_header = 1
+let g:syntastic_cpp_compiler = 'clang++'
+let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libstdc++'
+"whether to show balloons
+let g:syntastic_enable_balloons = 1
+let g:syntastic_ignore_files=[".*\.py$"]
+
+
+
