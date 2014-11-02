@@ -35,5 +35,17 @@ nnoremap <silent> <F8> :TagbarToggle<CR>
 map <F7> :NERDTreeToggle<CR>
 let g:NERDTreeMinimalUI  = 1
 
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" CTRLP 模糊匹配文件，快速打开应用
+" 命令： Ctrl +　p
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" 忽略文件 
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+  \ 'file': '\v\.(exe|so|dll)$',
+  \ 'link': 'some_bad_symbolic_links',
+  \ }
+
 
 

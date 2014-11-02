@@ -21,6 +21,9 @@ Plugin 'bling/vim-airline'
 " 文件管理
 Plugin 'scrooloose/NERDTree'
 
+" 模糊搜索 file, buffer, mru, tag 等等
+Plugin 'kien/ctrlp.vim'
+
 " 主题 
 Plugin 'jnurmine/Zenburn'
 Plugin 'tomasr/molokai'
