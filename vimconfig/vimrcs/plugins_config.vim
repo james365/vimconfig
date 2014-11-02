@@ -47,5 +47,8 @@ let g:ctrlp_custom_ignore = {
   \ 'link': 'some_bad_symbolic_links',
   \ }
 
-
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" vim markdown :Markdown file syntax highlighting
+""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 

@@ -24,6 +24,9 @@ Plugin 'scrooloose/NERDTree'
 " 模糊搜索 file, buffer, mru, tag 等等
 Plugin 'kien/ctrlp.vim'
 
+" markdown 文件格式高亮 
+Plugin 'tpope/vim-markdown'
+
 " 主题 
 Plugin 'jnurmine/Zenburn'
 Plugin 'tomasr/molokai'
