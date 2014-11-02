@@ -18,6 +18,8 @@ Plugin 'dimasg/vim-mark'
 " airline 状态栏 
 Plugin 'bling/vim-airline'
 
+" 文件管理
+Plugin 'scrooloose/NERDTree'
 
 " 主题 
 Plugin 'jnurmine/Zenburn'

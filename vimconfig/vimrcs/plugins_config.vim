@@ -29,6 +29,11 @@ nnoremap <silent> <F8> :TagbarToggle<CR>
 "   <leader>? 所有MarkWord的上一个
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" NERDTree 
+""""""""""""""""""""""""""""""""""""""""""""""""""
+map <F7> :NERDTreeToggle<CR>
+let g:NERDTreeMinimalUI  = 1
 
 
 
