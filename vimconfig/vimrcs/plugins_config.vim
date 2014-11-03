@@ -66,5 +66,22 @@ let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libstdc++'
 let g:syntastic_enable_balloons = 1
 let g:syntastic_ignore_files=[".*\.py$"]
 
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" easy grep
+" 命令：
+" <leader>vv 搜索当前光标下词组
+" :Grep [arg] 
+" :Replace [target] [replacement]
+" :ReplaceUndo 撤销替换
+" :GrepOptions [arg] 设置参数
+""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:EasyGrepCommand=1
+let g:EasyGrepFilesToExclude=".svn,.git,tags,cscope.*,*.o,*.so,*.bak,*~"
+let g:EasyGrepRecursive=1
+let g:EasyGrepJumpToMatch=0 
 
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" molokai colorscheme config
+""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:molokai_original = 0
 

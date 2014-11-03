@@ -16,7 +16,10 @@ Plugin 'majutsushi/tagbar'
 Plugin 'dimasg/vim-mark'
 
 " airline 状态栏 
-Plugin 'bling/vim-airline'
+"Plugin 'bling/vim-airline'
+
+" powerline
+Plugin 'Lokaltog/vim-powerline'
 
 " 文件管理
 Plugin 'scrooloose/NERDTree'
@@ -29,6 +32,12 @@ Plugin 'tpope/vim-markdown'
 
 " 语法检测 
 Plugin 'scrooloose/syntastic'
+
+" 加速移动 
+Plugin 'rhysd/accelerated-jk'
+
+" 搜索
+Plugin 'dkprice/vim-easygrep'
 
 " 主题 
 Plugin 'jnurmine/Zenburn'
