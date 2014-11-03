@@ -81,6 +81,10 @@ let g:EasyGrepRecursive=1
 let g:EasyGrepJumpToMatch=0 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
+" NERD commenter 
+""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
 " molokai colorscheme config
 """"""""""""""""""""""""""""""""""""""""""""""""""
 let g:molokai_original = 0
