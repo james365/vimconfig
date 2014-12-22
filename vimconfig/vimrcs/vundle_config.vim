@@ -35,6 +35,7 @@ Plugin 'scrooloose/syntastic'
 
 " 加速移动 
 Plugin 'rhysd/accelerated-jk'
+Plugin 'yonchu/accelerated-smooth-scroll'
 
 " 搜索
 Plugin 'dkprice/vim-easygrep'
