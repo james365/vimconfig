@@ -89,3 +89,11 @@ let g:EasyGrepJumpToMatch=0
 """"""""""""""""""""""""""""""""""""""""""""""""""
 let g:molokai_original = 0
 
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" syntax highlighting for arm assembler
+""""""""""""""""""""""""""""""""""""""""""""""""""
+let asmsyntax='armasm'
+let filetype_inc='armasm'
+
+
+

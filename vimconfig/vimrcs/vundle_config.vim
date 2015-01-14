@@ -43,6 +43,9 @@ Plugin 'dkprice/vim-easygrep'
 " 代码注释/取消注释快捷工具
 Plugin 'scrooloose/nerdcommenter'
 
+" Syntax highlighting for ARM assembler
+Plugin 'armasm'
+
 " 主题 
 Plugin 'jnurmine/Zenburn'
 Plugin 'tomasr/molokai'
