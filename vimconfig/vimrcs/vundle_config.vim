@@ -29,6 +29,8 @@ Plugin 'kien/ctrlp.vim'
 
 " markdown 文件格式高亮 
 Plugin 'tpope/vim-markdown'
+" markdown 预览 
+Plugin 'suan/vim-instant-markdown'
 
 " 语法检测 
 Plugin 'scrooloose/syntastic'
@@ -51,6 +53,10 @@ Plugin 'jnurmine/Zenburn'
 Plugin 'tomasr/molokai'
 Plugin 'sickill/vim-monokai'
 Plugin 'altercation/vim-colors-solarized'
+
+" 缩进对齐线 
+Plugin 'nathanaelkane/vim-indent-guides'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
